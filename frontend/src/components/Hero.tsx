@@ -24,16 +24,9 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <motion.div
-            className="mb-8 inline-block"
-            animate={{ 
-              rotate: [0, 10, -10, 0],
-              scale: [1, 1.1, 1, 1.1, 1]
-            }}
-            transition={{ duration: 3, repeat: Infinity }}
-          >
-            <img src="/logo.svg" alt="ArtConvert Logo" className="w-32 h-32 mx-auto" />
-          </motion.div>
+          <div className="mb-8 inline-block">
+            <img src="/logo.png" alt="ArtConvert Logo" className="w-32 h-32 mx-auto" />
+          </div>
           
           <h1 className="text-6xl md:text-8xl font-extrabold mb-6">
             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent animate-gradient">
