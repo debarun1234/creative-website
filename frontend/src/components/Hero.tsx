@@ -25,14 +25,14 @@ export const Hero = () => {
           transition={{ duration: 0.8 }}
         >
           <motion.div
-            className="text-8xl mb-8"
+            className="mb-8 inline-block"
             animate={{ 
               rotate: [0, 10, -10, 0],
               scale: [1, 1.1, 1, 1.1, 1]
             }}
             transition={{ duration: 3, repeat: Infinity }}
           >
-            🎨
+            <img src="/logo.svg" alt="ArtConvert Logo" className="w-32 h-32 mx-auto" />
           </motion.div>
           
           <h1 className="text-6xl md:text-8xl font-extrabold mb-6">
