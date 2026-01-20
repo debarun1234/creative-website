@@ -54,7 +54,9 @@ export const Navbar = ({ onAboutClick }: NavbarProps) => {
         />
         <NavbarBrand>
           <div className="flex items-center gap-2">
-            <img src="/logo.png" alt="ArtConvert Logo" className="w-10 h-10" />
+            <div className="rounded-full border-2 border-gray-300 dark:border-gray-700 p-1">
+              <img src="/logo.png" alt="ArtConvert Logo" className="w-8 h-8 rounded-full" />
+            </div>
             <p className="font-bold text-2xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
               ArtConvert
             </p>

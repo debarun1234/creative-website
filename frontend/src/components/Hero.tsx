@@ -24,8 +24,8 @@ export const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <div className="mb-8 inline-block">
-            <img src="/logo.png" alt="ArtConvert Logo" className="w-32 h-32 mx-auto" />
+          <div className="mb-8 inline-block rounded-full border-4 border-gray-300 dark:border-gray-700 p-4">
+            <img src="/logo.png" alt="ArtConvert Logo" className="w-80 h-50 mx-auto rounded-full" />
           </div>
           
           <h1 className="text-6xl md:text-8xl font-extrabold mb-6">

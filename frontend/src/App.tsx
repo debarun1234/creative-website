@@ -83,7 +83,9 @@ function App() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
             <div>
               <div className="flex items-center justify-center md:justify-start gap-2 mb-4">
-                <img src="/logo.png" alt="ArtConvert Logo" className="w-8 h-8" />
+                <div className="rounded-full border-2 border-gray-300 dark:border-gray-700 p-1">
+                  <img src="/logo.png" alt="ArtConvert Logo" className="w-6 h-6 rounded-full" />
+                </div>
                 <h3 className="font-bold text-2xl bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                   ArtConvert
                 </h3>
